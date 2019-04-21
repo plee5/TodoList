@@ -10,6 +10,7 @@ function TodoItem({
   isCompleted,
   startSession,
   toggleIsCompleted,
+  // key, //I added this
 }) {
   return (
     <div className="card todo-item-container">
